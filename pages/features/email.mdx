@@ -1,0 +1,269 @@
+# Email Integration
+
+Transform your email workflow with AI-powered summaries, smart replies, and automated processing that saves hours every day.
+
+import { Callout, Steps } from 'nextra/components'
+
+<Callout type="warning" emoji="🔒">
+**Pro Feature**: Email integration is available exclusively for Pro subscribers ($14.99/month).
+</Callout>
+
+![Email Integration Interface](/images/email-integration.png)
+
+## Features Overview
+
+### ✨ **Smart AI Summaries**
+Get intelligent, contextual summaries of every email powered by GPT-4o-mini.
+
+**What you get:**
+- **Key Points**: Main topics and action items extracted
+- **Sentiment Analysis**: Understand the tone and urgency
+- **Action Required**: Clear indicators of what needs response
+- **Contact Context**: Important details about senders
+
+### 🤖 **AI Reply Generation**
+Generate professional, contextual email responses in seconds.
+
+**Capabilities:**
+- **Context-Aware**: Understands email thread history
+- **Tone Matching**: Adapts to the conversation style
+- **Personalization**: Uses your communication preferences
+- **Multi-Language**: Responds in the appropriate language
+
+### 📊 **Batch Processing**
+Handle multiple emails efficiently with bulk operations.
+
+**Features:**
+- **Bulk Summarization**: Generate summaries for all visible emails
+- **Priority Sorting**: AI identifies urgent emails
+- **Smart Categorization**: Automatically groups similar emails
+- **Action Tracking**: Track emails requiring follow-up
+
+## Getting Started
+
+<Steps>
+
+### Connect Your Gmail Account
+
+1. **Navigate to Email section** in Nummi's sidebar
+2. **Click "Connect Gmail"** button
+3. **Authorize Nummi** to access your Gmail account
+4. **Grant permissions** for reading and sending emails
+
+<Callout type="info" emoji="🔒">
+**Privacy First**: Nummi only accesses emails you explicitly view and never stores your full email content permanently.
+</Callout>
+
+### Initial Setup
+
+After connecting, Nummi will:
+- **Sync your recent emails** (last 50 emails)
+- **Generate initial summaries** for visible emails
+- **Set up real-time syncing** for new incoming emails
+- **Configure your email preferences**
+
+### Start Using AI Features
+
+Once setup is complete:
+- **View AI summaries** that appear automatically
+- **Generate replies** using the AI assistant
+- **Use bulk actions** for efficient email management
+- **Customize settings** to match your workflow
+
+</Steps>
+
+## AI Email Summaries
+
+![Email Summaries Interface](/images/email-summaries.png)
+
+### How Summaries Work
+
+#### **Automatic Generation**
+- Summaries generate automatically for the first 5 visible emails
+- Background processing ensures no waiting time
+- Smart caching prevents re-generating existing summaries
+- Real-time updates for new incoming emails
+
+#### **Summary Content**
+Each summary includes:
+- **Main Topic**: What the email is about
+- **Key Points**: Important information and details
+- **Action Items**: Tasks or responses needed
+- **Urgency Level**: Priority assessment
+- **Sender Context**: Relevant information about the contact
+
+#### **Performance Optimized**
+- **Database Caching**: Summaries stored for instant loading
+- **Batch Processing**: Multiple summaries generated efficiently
+- **Smart Loading**: Progressive enhancement as you scroll
+- **Mobile Optimized**: Fast performance on all devices
+
+### Summary Examples
+
+**Sales Inquiry Email**:
+> 📧 **Sales inquiry from potential enterprise client**
+> 
+> **Key Points**: Company with 500+ employees interested in annual subscription, specific questions about team features and custom integrations
+> 
+> **Action Required**: ✅ High priority - Respond within 24 hours with pricing and demo scheduling
+
+**Project Update Email**:
+> 📊 **Weekly project status update**
+> 
+> **Key Points**: Development milestone reached, 2 minor bugs identified, timeline still on track for next Friday delivery
+> 
+> **Action Required**: ⚠️ Review bug reports and approve proposed solutions
+
+## AI Reply Generation
+
+![Email Reply Interface](/images/email-reply.png)
+
+### Smart Reply Features
+
+#### **Context Understanding**
+- **Full Thread Analysis**: Reads entire email conversation
+- **Sender History**: References past interactions
+- **Project Context**: Understands ongoing work relationships
+- **Tone Detection**: Matches appropriate communication style
+
+#### **Customizable Responses**
+- **Tone Selection**: Professional, casual, enthusiastic, etc.
+- **Length Control**: Brief acknowledgment to detailed responses
+- **Action Integration**: Includes meeting scheduling, file sharing
+- **Personalization**: Incorporates your communication style
+
+#### **Generation Options**
+- **Quick Replies**: One-click responses for common scenarios
+- **Custom Prompts**: Specify exactly what you want to say
+- **Template Responses**: Save and reuse common reply patterns
+- **Multi-Option**: Generate multiple response variations
+
+### Reply Examples
+
+**Meeting Request Response**:
+```
+Hi Sarah,
+
+Thanks for reaching out! I'd be happy to discuss the Q4 marketing strategy.
+
+I have availability next week:
+- Tuesday 2-3pm
+- Wednesday 10-11am  
+- Friday 1-2pm
+
+Would any of these times work for you? I'll send a calendar invite once we confirm.
+
+Best regards,
+[Your name]
+```
+
+**Project Update Response**:
+```
+Hi Team,
+
+Great progress on the development milestone! 
+
+I've reviewed the bug reports you mentioned. Both issues look manageable and shouldn't impact our Friday deadline. Please proceed with the proposed solutions and keep me posted on any roadblocks.
+
+Looking forward to the delivery!
+
+[Your name]
+```
+
+## Email Management Dashboard
+
+### Inbox Overview
+- **Unread Count**: Clear indicators of new emails
+- **Priority Queue**: AI-sorted by importance and urgency
+- **Action Required**: Emails needing your response
+- **Scheduled**: Emails you've scheduled to handle later
+
+### Smart Categorization
+- **Sales & Business**: Client communications and opportunities
+- **Projects**: Team updates and project-related emails
+- **Personal**: Non-work related correspondence
+- **Newsletters**: Subscriptions and marketing emails
+- **Automated**: System notifications and confirmations
+
+### Productivity Features
+- **Bulk Actions**: Process multiple emails simultaneously
+- **Quick Archive**: Smart suggestions for emails to archive
+- **Follow-up Reminders**: Set reminders for important emails
+- **Search & Filter**: Find emails quickly with AI-powered search
+
+## Privacy & Security
+
+### Data Protection
+- **End-to-End Encryption**: All email data encrypted in transit
+- **Minimal Storage**: Only necessary data cached temporarily
+- **No Training Data**: Your emails never used for AI model training
+- **GDPR Compliant**: Full compliance with privacy regulations
+
+### Access Controls
+- **OAuth Security**: Secure Google authentication
+- **Revocable Access**: Disconnect anytime from Google account settings
+- **Audit Logs**: Track all email access and actions
+- **Two-Factor**: Enhanced security with 2FA support
+
+### Email Permissions
+Nummi requests these Gmail permissions:
+- **Read emails**: To generate summaries and context
+- **Send emails**: To send AI-generated replies
+- **Manage labels**: For smart categorization
+- **Access contacts**: For sender context and personalization
+
+<Callout type="info" emoji="🔒">
+**You control your data**: Disconnect Gmail integration anytime, and all cached email data is immediately deleted.
+</Callout>
+
+## Troubleshooting
+
+### Common Setup Issues
+
+**Gmail connection fails:**
+- Ensure you're using a Google Workspace or Gmail account
+- Check that IMAP is enabled in Gmail settings
+- Try disconnecting and reconnecting the account
+
+**Summaries not generating:**
+- Verify your Pro subscription is active
+- Check internet connection for API access
+- Clear browser cache and refresh the page
+
+**Missing emails:**
+- Gmail sync can take 1-2 minutes for large inboxes
+- Check Gmail filters that might hide emails
+- Ensure emails aren't in spam or trash folders
+
+### Performance Optimization
+
+**Slow loading:**
+- Summaries generate in background, refresh after 30 seconds
+- Limit email view to 20-50 emails for faster processing
+- Use search filters to focus on specific email types
+
+**High API usage:**
+- Summaries are cached, regeneration only happens for new emails
+- Use manual generation sparingly for better performance
+- Consider upgrading to higher tier for increased API limits
+
+## Getting the Most from Email Integration
+
+### Best Practices
+
+1. **Review summaries first** before opening emails to prioritize
+2. **Use custom prompts** for reply generation to match your style
+3. **Set up filters** in Gmail to reduce noise and focus on important emails
+4. **Leverage bulk actions** for newsletter and automated email management
+5. **Customize AI instructions** to match your communication preferences
+
+### Pro Tips
+
+- **Morning routine**: Use batch summarization to quickly review overnight emails
+- **Meeting prep**: Generate summaries of email threads before important calls
+- **Client management**: Use sender context to maintain professional relationships
+- **Time blocking**: Process emails in dedicated time slots using AI assistance
+
+---
+
+Ready to revolutionize your email workflow? [Upgrade to Pro](https://chat.nummi.ai) and connect your Gmail account today! 📧✨
