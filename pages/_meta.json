@@ -1,8 +1,7 @@
 {
-  "index": "Introduction",
-  "getting-started": "Getting Started",
-  "features": "Features",
-  "guides": "Guides",
-  "troubleshooting": "Troubleshooting",
-  "api": "API Reference"
+  "index": "🏠 Introduction",
+  "getting-started": "🚀 Getting Started", 
+  "features": "⚡ Features",
+  "guides": "📖 Guides",
+  "troubleshooting": "🔧 Troubleshooting"
 }

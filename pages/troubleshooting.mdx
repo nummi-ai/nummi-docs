@@ -1,0 +1,220 @@
+# Troubleshooting
+
+Common issues and solutions to help you get back to being productive with Nummi.
+
+import { Callout } from 'nextra/components'
+
+## General Issues
+
+### **Can't log in to my account**
+
+**Possible causes:**
+- Incorrect email or password
+- Account not verified
+- Browser cache issues
+
+**Solutions:**
+1. **Check credentials** - Ensure email and password are correct
+2. **Verify email** - Check your email for verification link
+3. **Clear browser cache** - Clear cookies and site data
+4. **Reset password** - Use "Forgot Password" link on login page
+5. **Try incognito mode** - Test in private browsing window
+
+### **AI responses are slow or not working**
+
+**Possible causes:**
+- Poor internet connection
+- High server load
+- Browser compatibility issues
+
+**Solutions:**
+1. **Check internet connection** - Ensure stable internet
+2. **Refresh the page** - Simple reload often fixes issues
+3. **Try different browser** - Chrome, Firefox, Safari, or Edge
+4. **Disable browser extensions** - Ad blockers can interfere
+5. **Check system status** - Visit our status page
+
+### **Credits not updating properly**
+
+**Possible causes:**
+- Caching delays
+- Subscription status issues
+- Browser sync problems
+
+**Solutions:**
+1. **Wait 5 minutes** - Credit updates can be delayed
+2. **Refresh browser** - Force reload with Ctrl+F5
+3. **Check subscription** - Verify Pro status is active
+4. **Contact support** - If issue persists after 30 minutes
+
+## Email Integration Issues
+
+### **Gmail connection failing**
+
+<Callout type="warning" emoji="⚠️">
+**Pro Feature**: Email integration requires an active Pro subscription.
+</Callout>
+
+**Common solutions:**
+1. **Verify Pro subscription** - Email integration is Pro-only
+2. **Check Google account** - Ensure using Gmail or Google Workspace
+3. **Enable IMAP** - Must be enabled in Gmail settings
+4. **Clear OAuth tokens** - Disconnect and reconnect account
+5. **Check permissions** - Ensure all requested permissions granted
+
+### **Email summaries not generating**
+
+**Troubleshooting steps:**
+1. **Wait 30 seconds** - Summaries generate in background
+2. **Refresh page** - Force reload of email interface
+3. **Check email count** - Large inboxes take longer to process
+4. **Verify internet** - API calls require stable connection
+5. **Manual generation** - Use "Generate Summary" button
+
+### **Can't send AI-generated replies**
+
+**Check these items:**
+1. **Sending permissions** - Ensure Nummi has send access
+2. **Email format** - Verify recipient email is valid
+3. **Content length** - Very long emails may fail
+4. **Rate limits** - Google has daily sending limits
+5. **Account status** - Ensure Gmail account in good standing
+
+## Content Studio Issues
+
+### **Social media accounts won't connect**
+
+**Platform-specific solutions:**
+
+**LinkedIn:**
+1. **Business account** - Personal accounts have limited API access
+2. **Admin permissions** - Must be admin of company page
+3. **Clear LinkedIn cache** - Log out and back into LinkedIn
+4. **Try different browser** - Some browsers block OAuth flows
+
+**Twitter/X:**
+1. **Verify account** - Phone verification required for API access
+2. **Account standing** - Suspended accounts can't connect
+3. **Two-factor auth** - May interfere with OAuth process
+4. **Developer restrictions** - Check Twitter's current API policies
+
+### **Scheduled posts not publishing**
+
+**Common fixes:**
+1. **Check timezone** - Ensure correct timezone selected
+2. **Account permissions** - Verify posting permissions active
+3. **Content guidelines** - Ensure content meets platform rules
+4. **Character limits** - Posts may be too long for platform
+5. **Platform status** - Check if social platform has outages
+
+### **Content generation producing poor results**
+
+**Improvement tips:**
+1. **Be more specific** - Provide detailed prompts and context
+2. **Set clear tone** - Specify desired voice and style
+3. **Include examples** - Show AI what you're looking for
+4. **Use personas** - Different personas excel at different content
+5. **Iterate and refine** - Use "Regenerate" to try different approaches
+
+## Performance Issues
+
+### **Nummi loading slowly**
+
+**Optimization steps:**
+1. **Check internet speed** - Run speed test (minimum 5 Mbps recommended)
+2. **Close other tabs** - Reduce browser memory usage
+3. **Update browser** - Use latest version of Chrome/Firefox/Safari
+4. **Disable extensions** - Ad blockers and privacy tools can slow loading
+5. **Clear cache** - Remove stored data and reload
+
+### **High memory usage**
+
+**Memory optimization:**
+1. **Restart browser** - Clear accumulated memory usage
+2. **Limit open chats** - Archive old conversations
+3. **Reduce browser tabs** - Keep only necessary tabs open
+4. **Update system** - Ensure OS and browser are current
+5. **Check RAM** - 4GB minimum, 8GB recommended
+
+## Browser Compatibility
+
+### **Supported Browsers**
+- ✅ **Chrome 90+** (Recommended)
+- ✅ **Firefox 88+** 
+- ✅ **Safari 14+**
+- ✅ **Edge 90+**
+- ❌ **Internet Explorer** (Not supported)
+
+### **Browser-Specific Issues**
+
+**Safari:**
+- Enable cookies and local storage
+- Allow pop-ups for oauth flows
+- Update to latest version
+
+**Firefox:**
+- Disable Enhanced Tracking Protection for Nummi
+- Allow third-party cookies for integrations
+- Check add-on interference
+
+## Mobile Experience
+
+### **Mobile browser issues**
+
+**Recommendations:**
+1. **Use mobile browser** - Chrome or Safari on mobile
+2. **Desktop version** - Nummi optimized for desktop use
+3. **Zoom settings** - Ensure proper zoom level (100%)
+4. **Portrait mode** - Better experience in vertical orientation
+5. **Native app** - Coming soon for better mobile experience
+
+## Getting Additional Help
+
+### **Before Contacting Support**
+
+Please try these steps first:
+1. **Check this troubleshooting guide**
+2. **Restart your browser**
+3. **Try incognito/private mode**
+4. **Clear browser cache and cookies**
+5. **Test with different browser**
+
+### **Contacting Support**
+
+When you contact support, please include:
+
+**System Information:**
+- Operating system (Windows, Mac, Linux)
+- Browser name and version
+- Nummi subscription type (Basic/Pro)
+- Error messages (exact text or screenshots)
+
+**Issue Details:**
+- What you were trying to do
+- What happened instead
+- Steps to reproduce the issue
+- When the issue first occurred
+
+### **Support Channels**
+
+- 📧 **Email**: [support@nummi.ai](mailto:support@nummi.ai)
+- 💬 **Live Chat**: Available in Nummi app (Help & Support)
+- 📚 **Documentation**: Browse this site for guides
+- ⚡ **Response Time**: Within 24 hours for Pro users, 48 hours for Basic
+
+## System Status
+
+For real-time status updates on Nummi services:
+
+- **AI Chat**: Powered by OpenAI and Anthropic APIs
+- **Email Integration**: Gmail API dependency  
+- **Content Studio**: Social platform API connections
+- **Scheduling**: Vercel Cron background jobs
+
+<Callout type="info" emoji="📊">
+**Pro Tip**: Most issues resolve with a simple browser refresh or cache clear. Always try these first!
+</Callout>
+
+---
+
+**Still having issues?** Don't hesitate to reach out to our support team at [support@nummi.ai](mailto:support@nummi.ai) - we're here to help! 🚀
